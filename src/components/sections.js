@@ -1,5 +1,9 @@
 export { default as HomepageHero } from "./hero"
 export { default as HomepageFeatureList } from "./feature-list"
+<<<<<<< HEAD
+=======
+export { default as HomepageIconList } from "./icon-list"
+>>>>>>> 21469e9 (trying to get content to appear)
 export { default as HomepageLogoList } from "./logo-list"
 export { default as HomepageBenefitList } from "./benefit-list"
 export { default as HomepageTestimonialList } from "./testimonial-list"
