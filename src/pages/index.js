@@ -32,21 +32,14 @@ export const query = graphql`
         id
         blocktype
         ...HomepageHeroContent
-<<<<<<< HEAD
-=======
-        ...HomepageIconListContent
->>>>>>> 21469e9 (trying to get content to appear)
         ...HomepageFeatureListContent
         ...HomepageCtaContent
+        ...HomepageIconListContent
         ...HomepageLogoListContent
         ...HomepageTestimonialListContent
         ...HomepageBenefitListContent
         ...HomepageStatListContent
         ...HomepageProductListContent
-<<<<<<< HEAD
-=======
-
->>>>>>> 21469e9 (trying to get content to appear)
       }
     }
   }
