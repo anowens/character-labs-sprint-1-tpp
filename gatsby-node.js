@@ -167,8 +167,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       blocktype: String
       text: String
       logos: [HomepageLogo]
-<<<<<<< HEAD
-=======
       # subheader: String
     }
 
@@ -178,7 +176,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       logos: [HomepageLogo]
       subheader: String
->>>>>>> 21469e9 (trying to get content to appear)
     }
 
     interface HomepageTestimonial implements Node {
@@ -442,8 +439,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       logos: [HomepageLogo] @link(from: "logos___NODE")
     }
-<<<<<<< HEAD
-=======
     
     type ContentfulHomepageIconList implements Node & HomepageBlock & home4IconList
       @dontInfer {
@@ -452,7 +447,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       logos: [HomepageLogo] @link(from: "logos___NODE")
       subheader: String
     }
->>>>>>> 21469e9 (trying to get content to appear)
 
     type ContentfulHomepageTestimonial implements Node & HomepageTestimonial
       @dontInfer {
